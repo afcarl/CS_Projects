@@ -1,8 +1,11 @@
-PROBLEM 1
+This is a project for my machine learning class.
+The goal was to implement a logistic regression classifer to classify spam.
 
-Run "p1.m" to get the beta and mu vectors.
+We found best results using batch gradient descent to determine the weight vector, beta and used cross validation to determine
+the optimal parameters.
+Running on a test set of about 1500 emails, we achieved an error rate of 6.5%.
 
-PROBLEM 2
+Here's how to run the code!
 
 First run "p2.m" to load and pre-process the training data.
 Run "p2_batch.m" to determine beta using batch gradient descent (change the indicated variable to use different preprocessing methods,
